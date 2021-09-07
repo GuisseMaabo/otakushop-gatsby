@@ -20,6 +20,8 @@ module.exports = {
       options: {
         password: process.env.SHOPIFY_SHOP_PASSWORD,
         storeUrl: process.env.GATSBY_SHOPIFY_STORE_URL,
+        //password: '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',
+        //storeUrl:  'otakushoper.myshopify.com',
         shopifyConnections: ["collections"],
       },
     },
@@ -39,3 +41,7 @@ module.exports = {
     },
   ].filter(Boolean),
 }
+
+
+//     password: process.env.SHOPIFY_SHOP_PASSWORD,
+//     storeUrl: process.env.GATSBY_SHOPIFY_STORE_URL,
